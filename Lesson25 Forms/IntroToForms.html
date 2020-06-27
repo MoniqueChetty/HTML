@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Intro to HTML Forms</title>
+    </head>
+    <body>
+        <form>
+            <h1>Signup</h1>
+            <div>
+                Full Name:<br>
+                <input type="text" name="fullname"><br>
+            </div>
+            <div>
+                Email:<br>
+                <input type="email" name="email">
+            </div>
+            
+            <div>
+                Password:<br>
+                <input type="password" name="password"><br>
+            </div>
+            <div>
+                Confirm Password:<br>
+                <input type="password" name="confirm-password"><br>
+            </div>
+            <div>
+                Gender:<br>
+                <input type="radio" name="male" value="male">
+                Male
+                <input type="radio" name="female" value="female">
+                Female
+                <input type="radio" name="other" value="other">
+                Other
+            </div>
+            <div>
+                Security Question: <br>
+                <select name="security-question">
+                    <option value="first-pet-name">What was your first pets name?</option>
+                    <option value="first-job">What was your first job?</option>
+                    <option value="nick-name">What is your name?</option>
+                </select>
+            </div>
+            
+            <input type="submit" value="Register">
+
+        </form>
+    
+    </body>
+</html>
