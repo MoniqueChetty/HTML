@@ -3,29 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <title>Intro to HTML Forms</title>
+        <style>
+            #register-form{
+                width: 300px;
+                background-color: white;
+                padding: 24px;
+
+            }
+        </style>
     </head>
-    <body>
-        <form>
+    <body style="background-color: lightblue;">
             <h1>Signup</h1>
+        <form id="register-form">
             <div>
-                Full Name:<br>
+                <p>Full Name</p>
                 <input type="text" name="fullname"><br>
             </div>
             <div>
-                Email:<br>
+                <p>Email</p>
                 <input type="email" name="email">
             </div>
             
             <div>
-                Password:<br>
+                <p>Password</p>
                 <input type="password" name="password"><br>
             </div>
             <div>
-                Confirm Password:<br>
+                <p>Confirm Password</p>
                 <input type="password" name="confirm-password"><br>
             </div>
             <div>
-                Gender:<br>
+                <p>Gender</p>
                 <input type="radio" name="male" value="male">
                 Male
                 <input type="radio" name="female" value="female">
@@ -34,7 +42,7 @@
                 Other
             </div>
             <div>
-                Security Question: <br>
+                <p>Security Question</p>
                 <select name="security-question">
                     <option value="first-pet-name">What was your first pets name?</option>
                     <option value="first-job">What was your first job?</option>
