@@ -30,20 +30,24 @@
         <form id="register-form" method="GET">
             <div>
                 <p class="input-label">Full Name</p>
-                <input class="input-item" type="text" name="fullname" placeholder="Full name" autofocus><br>
+                <input class="input-item" type="text" name="fullname" placeholder="Full name" autofocus required ><br>
             </div>
             <div>
                 <p class="input-label">Email</p>
-                <input class="input-item" type="email" name="email" placeholder="Email">
+                <input class="input-item" type="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <p class="input-label">Age:</p>
+                <input class="input-item" type="number" name="age" max="100" min="18">
             </div>
             
             <div>
                 <p class="input-label">Password</p>
-                <input class="input-item" type="password" name="password"><br>
+                <input class="input-item" type="password" name="password" required maxlength="8"><br>
             </div>
             <div>
                 <p class="input-label">Confirm Password</p>
-                <input class="input-item" type="password" name="confirm-password"><br>
+                <input class="input-item" type="password" name="confirm-password" required maxlength="8"><br>
             </div>
             <div>
                 <p class="input-label">Gender</p>
@@ -56,7 +60,7 @@
             </div>
             <div>
                 <p class="input-label">Security Question</p>
-                <select class="input-item" name="security-question" multiple>
+                <select class="input-item" name="security-question" >
                     <option value="first-pet-name">What was your first pets name?</option>
                     <option value="first-job">What was your first job?</option>
                     <option value="nick-name">What is your name?</option>
