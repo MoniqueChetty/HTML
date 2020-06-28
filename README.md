@@ -38,7 +38,7 @@ HTML
 
 18. HTML - Design Page Structure Using Semantic Elements
 
-19. HTML - New Semantic Elements:<details> and <summary>
+19. HTML - New Semantic Elements:details and summary
 
 20. HTML - Introduction to Tables
 
